@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >Game of Set</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <style>
+        body {
+          background-image: url('Blizzconline_Zoom_background_Blizz30_01_thumb.jpeg');
+          background-size:contain;
+        }
+        </style>
+    <body>
+        <header>
+            <h1>Game of Set</h1>
+        </header>
+        <main>
+            <div style="color: #3FB0FF"><strong>
+                Time: <span id="Timer">60</span><br />
+                Sets Found: <span id="sets-found"></span><br />
+                Cards In Deck: <span id="cards-in-deck"></span><br />
+                Score: <span id="s">0</span><br />    Bot's Score: <span id="sBot">0</span><br />
+                <a href="index.html">
+                <button style="color: #ff0000" type="button">Back To Menu</button>
+                </a>
+                <a href="game.html">
+                    <button style="color: #ff0000"type="button">Restart</button>
+                </a>
+                <a>
+                <button style="color: #ff0000" id="hint" type="button">Hint</button>
+                </a>
+                <div id="error-msg"></div>
+            </strong>
+            </div>
+            <hr />
+            <table style="text-align:center;" id="card-table"></table>
+        </main>
+        <script src="./index.js" type="application/javascript" ></script>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+All pics share same size. Width is 160 px and height is 230 px. All outstanding figures in each pics are aligned and put in the middle with pixel accuracy.
